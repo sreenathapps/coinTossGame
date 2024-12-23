@@ -28,7 +28,7 @@ class CoinToss extends Component {
         <div className="coin-card">
           <h1 className="heading">Coin Toss Game</h1>
           <p className="title">Heads (or) Tails</p>
-          <img src={imageUrl} alt="coin" className="coin-logo" />
+          <img src={imageUrl} alt="toss result" className="coin-logo" />
           <button type="button" className="btn" onClick={this.onClickButton}>
             Toss Coin
           </button>
